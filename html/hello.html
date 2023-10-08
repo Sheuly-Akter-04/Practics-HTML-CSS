@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <p> Hello </p>
+    <a href="xfgdfgdf.html" style="color: brown;"><b>Go to new page</b></a><br>
+    <a href="xfgdfgdf.html" target="_blank" style="color: yellowgreen;"><b>Another option</b></a><br>
+    <a href="https://www.youtube.com/" target="_blank" style="color: goldenrod;"><b>YouTube</b></a><br>
+    <a href="S/ss.html" style="color: seagreen;"><b>From another folder</b></a><br>
+    <img src="img/Flower.jpg" alt="Not found" style="width: 120px; height: 100px;">
+    <img src="https://cdn.pixabay.com/photo/2016/01/08/11/57/butterflies-1127666_1280.jpg" alt="Not found" style="width: 120px; height: 100px;">
+    <br><caption style="text-align: center;">Fig: Flower</caption><br>
+    <table>
+        <caption><b><i>Result Sheet</i></b></caption>
+        <tr>
+            <th>Roll</th>
+            <th>Name</th>
+            <th>Markes</th>
+            <th>Position</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nishat</td>
+            <td>99</td>
+            <td>1<sup>st</sup></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sheuly</td>
+            <td>97</td>
+            <td rowspan="2">2<sup>nd</sup></td>
+        </tr>
+        <tr>
+            <td colspan="2">2</td>
+            <td>Nisu</td>
+            <td>90</td>
+        </tr>
+    </table>
+    <ul><!-- li*2 means 2 li will be assign  & ul = unorder list-->
+        <Li>Pen</Li>
+        <Li>Book</Li>
+    </ul>
+    <ol><!-- ol = order list & type a-->
+        <li>Sleep</li>
+        <li>Night</li>
+    </ol>
+    <ol>
+        <li type="I">Peace</li>
+        <li type="a">Heart</li>
+        <li><a href="https://www.youtube.com/"; target="_blank">YouTube</a></li>
+    </ol> <br>
+    
+    <p id="idgenarate">Id tag brown</p><!-- id tag with css-->
+    <iframe src="xfgdfgdf.html" frameborder="1"></iframe><br>
+    <iframe src="xfgdfgdf.html" frameborder="1"; height="5px"; width="5px"></iframe>
+    <p id="abc">It is JavaScript</p>
+    <button type="button"; onclick="ayfunction()">Click it</button>
+    <script>
+        function ayfunction(){
+            document.getElementById("abc").innerHTML="JAVASCRIPT";
+        }
+    </script>
+    <p style="font-size: 5vw;">Responsive website</p><!-- window wise size making-->
+    <form action="useraccount.php"; method="get">
+        <label for="username">User Name:</label><br>
+        <input id="username"; type="text"; autofocus><br>
+        <label for="password">Password:</label><br>
+        <input id="password"; type="password"; name=""; autofocus;required><br>
+        <label for="gender">Gender</label><br>
+        <input id=""; type="radio"; name="gender"; value="Male"; autofocus;required>
+        Male
+        <input id=""; type="radio"; name="gender"; value="Female">
+        Female<br>
+        <button type="button">Submit</button>
+        <input type="submit"; value="submit"><br><!-- submit worked-->
+        <select name="select"; id="">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="Nothing">Nothing</option>
+        </select><br>
+        <textarea id="";name="";cols="3";rows="2"; placeholder="Insert Details"></textarea><!-- text writing option-->
+        <br><input type="text"; list="list">
+        <datalist id="list">
+            <caption value="Dhaka">Dhaka</caption>
+            <caption value="Cumilla">Cumilla</caption>
+            <caption value="Chittagong">Chittagong</caption>
+        </datalist>
+
+    </form>
+
+
+
+</body>
+</html>
