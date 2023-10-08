@@ -1,0 +1,131 @@
+body{
+    /* background: url(/img/pic.jpg); */
+    background-size: contain; /* size wise ratio right */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+p{
+    color: blueviolet;
+}
+/* control+/ = css coment */
+h6{
+    /* color: rgb(red, green, blue); */
+    display: inline;
+    color: aqua;
+    border: 2px solid black;
+}
+.header{
+    border: 2px solid black;
+    position: sticky;
+    top: 0;
+}
+.header a{
+    display: inline-block;
+    color: blueviolet;
+    text-decoration: none;
+    margin: 6px;
+    padding: 4px;  /*behind margin space */
+    text-shadow: 4px 4px brown;
+}
+.navbar{
+    border: 12px solid black;
+    max-width: 250px;
+    border-color: lightgray;
+    padding: 12px;  /*behind margin space */
+    margin: auto;
+    outline: 10px solid red;
+    font-family: serif;
+}
+.navbar p{
+    text-indent: 30px;
+    text-align: justify;
+    text-decoration: underline;
+    line-height: 0.5cm;
+    letter-spacing: 1.2px;
+    font-family: Helvetica;
+}
+#innerlink{
+    display: block;
+    width: 80px;
+    margin: auto;
+    padding: 15px;
+    background-color: lightblue;
+    border-radius: 4px 4px;
+    text-decoration: none;
+}
+#innerlink:link{
+    background-color: green;
+    color: wheat;
+}
+#innerlink:hover{
+    background-color: yellow;
+    color: wheat;
+    /* mouse click color change */
+}
+#innerlink:visited{
+    background-color: red;
+    color: wheat;
+}
+#innerlink:checked{
+    background-color: gray;
+    color: wheat;
+}
+.list{
+    width: 20%;
+    margin: auto;
+    background-color: rgb(134, 134, 150);
+    padding: 10px;
+    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* display: none; totally out from output */
+    /* visibility: hidden; place will be same but it is not visiable */
+}
+.list ol li{
+    color: brown;  
+    font-size: 12px;
+    padding: 10px;
+    background-color: lightcoral;
+}
+.table{
+    padding: 15px;
+    background-color: rgb(49, 173, 173);
+    margin-top: 15px;
+}
+.tableformet{
+    width: 50%;
+    margin: auto;
+    background-color: brown;
+    padding: 50px;
+}
+.tableformet table{
+    border: 2px solid black;
+    /* border-collapse: collapse; for 1 line border */
+}
+.tableformet table th{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(131, 145, 118);
+    color: blanchedalmond;
+}
+.tableformet table td{
+    border: 2px solid black;
+    background-color: rgb(178, 109, 117);
+    color: rgb(75, 65, 48);
+}
+.display{
+    padding: 15px;
+    border: 2px solid green;
+    display: inline;
+}
+.float {
+    border: 3px solid black;
+    overflow: auto;
+    /* picture will be contain into the box */
+}
+.imgf{
+    float: left
+}
+.float p{
+    text-align: center;
+}
